@@ -2,7 +2,7 @@
 const ServicesCard = ({sname,desc,img}) => {
   
   return (
-    <div className="flex justify-between p-4  items-center gap-3 flex-col w-64 text-center shadow-lg rounded-md shadow-indigo-400" data-aos="fade-up">
+    <div className="flex justify-between p-4  items-center gap-3 flex-col lg:w-64 w-full mx-4 lg:mx-0 text-center shadow-lg rounded-md shadow-indigo-400" data-aos="fade-up">
         <img src={img} alt=".." className="w-2/3" />
       <h1 className="text-2xl">{sname}</h1>
       <p>

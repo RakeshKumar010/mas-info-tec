@@ -2,11 +2,11 @@ import React from "react";
 import aboutBanner from "../../assets/about.jpg";
 const About = () => {
   return (
-    <div className="flex justify-around items-center">
-      <img src={aboutBanner} alt=".." className="w-1/2" data-aos="fade-right"/>
-      <div className="flex flex-col gap-6 items-start w-1/3" data-aos="fade-left">
-        <h1 className="text-5xl font-bold text-indigo-600">About Us</h1>
-        <p>
+    <div className="flex justify-around items-center lg:flex-row flex-col mb-10 lg:mb-0">
+      <img src={aboutBanner} alt=".." className="lg:w-1/2 w-full " data-aos="fade-right"/>
+      <div className="flex flex-col items-center gap-6 lg:items-start lg:w-1/3 w-full" data-aos="fade-left">
+        <h1 className="lg:text-5xl text-2xl font-bold text-indigo-600 text-center ">About Us</h1>
+        <p className="text-center lg:text-start">
           The scale of solutions and services, offered by us, are some of the
           landmarks into the IT industry.You can easily search our services like
           Website development company in patna, website company in Patna,
